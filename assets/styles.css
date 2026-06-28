@@ -79,10 +79,7 @@ nav a:hover,
   display: grid;
   align-items: end;
   overflow: hidden;
-  background:
-    linear-gradient(120deg, rgba(31, 78, 70, 0.94), rgba(23, 33, 31, 0.88)),
-    radial-gradient(circle at 80% 20%, rgba(215, 232, 237, 0.22), transparent 32%),
-    #20312f;
+  background: #111412;
 }
 
 .hero-background-photo {
@@ -92,9 +89,9 @@ nav a:hover,
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 70% 45%;
-  opacity: 0.08;
-  filter: saturate(0.75) contrast(1.08);
+  object-position: 68% 68%;
+  opacity: 0.32;
+  filter: saturate(0.85) contrast(1.04);
 }
 
 .hero-overlay {
@@ -102,8 +99,8 @@ nav a:hover,
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(90deg, rgba(18, 27, 25, 0.72), rgba(18, 27, 25, 0.28)),
-    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 22px);
+    linear-gradient(90deg, rgba(10, 12, 11, 0.86), rgba(10, 12, 11, 0.58) 44%, rgba(10, 12, 11, 0.24)),
+    linear-gradient(0deg, rgba(10, 12, 11, 0.46), rgba(10, 12, 11, 0.06) 58%);
 }
 
 .hero-content {
