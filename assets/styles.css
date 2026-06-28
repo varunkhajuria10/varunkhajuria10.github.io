@@ -93,7 +93,7 @@ nav a:hover,
   height: 100%;
   object-fit: cover;
   object-position: 70% 45%;
-  opacity: 0.14;
+  opacity: 0.08;
   filter: saturate(0.75) contrast(1.08);
 }
 
