@@ -79,18 +79,24 @@ nav a:hover,
   display: grid;
   align-items: end;
   overflow: hidden;
-  background:
-    linear-gradient(120deg, rgba(31, 78, 70, 0.94), rgba(23, 33, 31, 0.88)),
-    radial-gradient(circle at 80% 20%, rgba(215, 232, 237, 0.22), transparent 32%),
-    #20312f;
+  background: #20312f;
+}
+
+.hero-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 58% 42%;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(18, 27, 25, 0.58), rgba(18, 27, 25, 0.12)),
-    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 22px);
+    linear-gradient(90deg, rgba(11, 18, 17, 0.86), rgba(11, 18, 17, 0.54) 42%, rgba(11, 18, 17, 0.18)),
+    linear-gradient(0deg, rgba(11, 18, 17, 0.62), rgba(11, 18, 17, 0.08) 58%);
 }
 
 .hero-content {
