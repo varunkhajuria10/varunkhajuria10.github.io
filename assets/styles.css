@@ -319,6 +319,58 @@ h3 {
   font-weight: 800;
 }
 
+.publication-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 22px;
+  padding: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.publication-note p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.publication-note a {
+  flex: 0 0 auto;
+  color: var(--forest);
+  font-weight: 800;
+}
+
+.publication-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-list li {
+  position: relative;
+  padding: 18px 18px 18px 76px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+.publication-list strong {
+  color: var(--ink);
+}
+
+.pub-year {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  color: var(--clay);
+  font-weight: 900;
+}
+
 .split {
   display: grid;
   grid-template-columns: minmax(260px, 0.7fr) minmax(0, 1.3fr);
@@ -422,6 +474,11 @@ footer p {
   .project-card.project-with-image,
   .project-card.featured {
     grid-template-columns: 1fr;
+  }
+
+  .publication-note {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .stats,
