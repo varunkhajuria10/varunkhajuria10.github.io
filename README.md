@@ -1,4 +1,4 @@
-# Varun Khajuria Research Portfolio
+# Varun Khajuria
 
 Static GitHub Pages portfolio for GIS, cryosphere, rock glacier, GPR validation, and InSAR research.
 
@@ -27,8 +27,8 @@ https://varunkhajuria10.github.io/
 In `index.html`, replace:
 
 ```text
-your.email@example.com
-https://www.linkedin.com/
+varunkhajuria10@gmail.com
+www.linkedin.com/in/varun-khajuria11
 ```
 
 with your real email and LinkedIn profile.
