@@ -336,7 +336,14 @@ h3 {
   color: var(--muted);
 }
 
-.publication-note a {
+.publication-links {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.publication-links a {
   flex: 0 0 auto;
   color: var(--forest);
   font-weight: 800;
