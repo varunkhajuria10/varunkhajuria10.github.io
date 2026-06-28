@@ -1,58 +1,219 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varun Khajuria</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="main-header">
-        <h1>Hey there, I'm Varun!</h1>
-        <p>I specialize in hydrology and related sciences. My work involves creating insightful models and visuals that help in understanding complex systems.</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Varun Khajuria | GIS and Cryosphere Research Portfolio</title>
+    <meta
+      name="description"
+      content="Research portfolio of Varun Khajuria: rock glacier ice-thickness modelling, GPR validation, InSAR analysis, GIS, and scientific cartography."
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">Varun Khajuria</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
-    <section id="about-me">
-        <h2>About Me</h2>
-        <div class="profile">
-            <img src="1659729168041.jpg" alt="Varun Khajuria's Photo">
-            <p>Varun Khajuria</p>
-            <p>PhD Candidate, Department of Earth Sciences, UniPisa</p>
+
+    <main id="top">
+      <section class="hero" aria-label="Portfolio introduction">
+        <img src="assets/images/gardetta-plateau.jpg" alt="Gardetta Plateau research map and terrain figure">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">GIS • Cryosphere • Remote Sensing</p>
+          <h1>Varun Khajuria</h1>
+          <p class="lead">
+            Researcher working on rock glacier ice-thickness modelling, GPR validation,
+            InSAR analysis, and spatial data visualization for alpine permafrost landscapes.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Contact</a>
+          </div>
         </div>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Position</h3>
-            <p>Institution or Organization, Date</p>
+      </section>
+
+      <section class="section compact" id="research">
+        <div class="section-title">
+          <p class="eyebrow">Research Profile</p>
+          <h2>Spatial analysis for mountain cryosphere systems</h2>
         </div>
-        <div class="experience-item">
-            <h3>Position</h3>
-            <p>Institution or Organization, Date</p>
+        <div class="intro-grid">
+          <p>
+            My work combines geospatial modelling, field-based validation, and remote-sensing
+            datasets to study rock glacier geometry, kinematics, and permafrost-related change.
+            I focus on producing reproducible analyses and publication-quality figures that make
+            complex spatial patterns easier to interpret.
+          </p>
+          <div class="stats">
+            <div>
+              <strong>GIS</strong>
+              <span>Raster and vector analysis</span>
+            </div>
+            <div>
+              <strong>GPR</strong>
+              <span>Validation of modelled thickness</span>
+            </div>
+            <div>
+              <strong>InSAR</strong>
+              <span>Temporal and kinematic analysis</span>
+            </div>
+          </div>
         </div>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>PhD in Earth Sciences</h3>
-            <p>University of Pisa, Ongoing</p>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-title">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Research projects and scientific figures</h2>
         </div>
-        <div class="education-item">
-            <h3>Previous Degree</h3>
-            <p>Previous University, Year</p>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <img src="assets/images/rock-glacier-kinematics.jpg" alt="Rock glacier kinematics map">
+            <div class="project-copy">
+              <p class="tag">Rock glacier dynamics</p>
+              <h3>Rock Glacier Kinematics and Surface Motion</h3>
+              <p>
+                Mapping and interpretation of rock glacier movement patterns using spatial datasets
+                and remote-sensing products to support geomorphological analysis.
+              </p>
+              <ul>
+                <li>Tools: QGIS, Python, raster analysis, cartographic design</li>
+                <li>Focus: spatial patterns, velocity interpretation, figure production</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/sbas-temporal.png" alt="SBAS temporal distribution figure">
+            <div class="project-copy">
+              <p class="tag">InSAR</p>
+              <h3>SBAS Temporal Distribution</h3>
+              <p>
+                Visualization of SBAS temporal coverage and observation structure for interpreting
+                surface displacement time series in alpine terrain.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/chapter4-analysis.jpg" alt="Rock glacier chapter analysis figure">
+            <div class="project-copy">
+              <p class="tag">Thickness modelling</p>
+              <h3>Rock Glacier Ice-Thickness Modelling</h3>
+              <p>
+                Spatial modelling workflow for estimating subsurface ice thickness and comparing
+                modelled results with field-derived evidence.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/rock-glaciers-map.jpg" alt="Rock glaciers distribution map">
+            <div class="project-copy">
+              <p class="tag">Geomorphology</p>
+              <h3>Rock Glacier Inventory and Mapping</h3>
+              <p>
+                Cartographic synthesis of rock glacier distribution, landform context, and spatial
+                attributes for thesis-scale interpretation.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/permafrost-zonation.jpg" alt="Permafrost zonation map with colour ramp">
+            <div class="project-copy">
+              <p class="tag">Permafrost</p>
+              <h3>Permafrost Zonation and Change Mapping</h3>
+              <p>
+                Visual analysis of permafrost zonation and spatial change using gridded climate and
+                permafrost products.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/fraction-analysis.png" alt="Volumetric fraction analysis plot">
+            <div class="project-copy">
+              <p class="tag">Validation</p>
+              <h3>Model Evaluation and Error Analysis</h3>
+              <p>
+                Comparison of model outputs against validation data, with emphasis on uncertainty,
+                residuals, and transparent scientific visualization.
+              </p>
+            </div>
+          </article>
         </div>
-    </section>
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-list">
-            <span>Python</span>
-            <span>R</span>
-            <span>Matlab</span>
-            <span>QGIS</span>
-            <span>ArcGIS</span>
+      </section>
+
+      <section class="section split" id="skills">
+        <div class="section-title">
+          <p class="eyebrow">Methods</p>
+          <h2>Technical skills</h2>
         </div>
-    </section>
+        <div class="skill-columns">
+          <div>
+            <h3>Geospatial Analysis</h3>
+            <p>QGIS, raster and vector workflows, DEM processing, terrain analysis, spatial interpolation.</p>
+          </div>
+          <div>
+            <h3>Remote Sensing</h3>
+            <p>Sentinel-1 InSAR, SBAS time-series interpretation, alpine surface-motion mapping.</p>
+          </div>
+          <div>
+            <h3>Programming</h3>
+            <p>Python, Jupyter notebooks, pandas, NumPy, matplotlib, reproducible figure generation.</p>
+          </div>
+          <div>
+            <h3>Validation</h3>
+            <p>GPR thickness comparison, residual analysis, uncertainty communication, scientific reporting.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section thesis">
+        <div>
+          <p class="eyebrow">Academic Work</p>
+          <h2>Thesis research</h2>
+          <p>
+            My thesis work investigates alpine rock glaciers through integrated spatial modelling,
+            remote sensing, and validation datasets. The portfolio highlights selected maps and
+            analysis outputs prepared for research communication and publication-quality reporting.
+          </p>
+        </div>
+        <img src="assets/images/gardetta-plateau.jpg" alt="Gardetta Plateau figure preview">
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let us connect</h2>
+          <p>
+            I am interested in GIS, cryosphere research, geospatial modelling, remote sensing, and
+            scientific visualization collaborations.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com">Email</a>
+          <a href="https://github.com/varunkhajuria10">GitHub</a>
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
     <footer>
-        <p>&copy; 2024 Varun Khajuria. All rights reserved.</p>
+      <p>© <span id="year"></span> Varun Khajuria. GIS and Cryosphere Research Portfolio.</p>
     </footer>
-</body>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
