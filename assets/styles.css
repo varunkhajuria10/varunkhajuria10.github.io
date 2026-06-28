@@ -200,7 +200,8 @@ h3 {
   margin-bottom: 30px;
 }
 
-.intro-grid {
+.intro-grid,
+.profile-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
   gap: clamp(24px, 5vw, 64px);
@@ -208,11 +209,26 @@ h3 {
 }
 
 .intro-grid > p,
+.profile-grid > p,
 .thesis p,
 .contact p {
   margin: 0;
   color: var(--muted);
   font-size: 1.08rem;
+}
+
+.profile-grid {
+  grid-template-columns: 180px minmax(0, 1fr) minmax(320px, 0.9fr);
+  align-items: center;
+}
+
+.profile-photo {
+  width: 180px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 6px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 .stats {
@@ -395,6 +411,7 @@ footer p {
   }
 
   .intro-grid,
+  .profile-grid,
   .split,
   .thesis,
   .contact,
@@ -415,6 +432,10 @@ footer p {
   .project-card.featured img {
     height: 300px;
     min-height: 0;
+  }
+
+  .profile-photo {
+    width: min(220px, 70vw);
   }
 
   .contact-links {
